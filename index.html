@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | syafiqnzr</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <img src="images/logo.png" alt="Logo" class="logo">
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#resume" class="lang-content ms active">Resume</a><a href="#resume" class="lang-content en">Resume</a></li>
+                    <li><a href="#project" class="lang-content ms active">Projek</a><a href="#project" class="lang-content en">Project</a></li>
+                    <li><a href="#hobby" class="lang-content ms active">Hobi</a><a href="#hobby" class="lang-content en">Hobby</a></li>
+                </ul>
+                <div class="lang-toggle">
+                    <button class="lang-btn active" data-lang="en">EN</button>
+                    <span class="lang-separator">|</span>
+                    <button class="lang-btn" data-lang="ms">BM</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Section -->
+    <section id="main">
+        <div class="section-container">
+            <div class="main-content">
+                <div class="main-image">
+                    <img src="images/profile.jpg" alt="Profile" class="profile-image">
+                </div>
+                <div class="main-text">
+                    <h1 class="lang-content ms active">Hai</h1>
+                    <h1 class="lang-content en">Hello</h1>
+                    <p class="lang-content ms active">Seorang pelajar Sains Komputer yang ingin berkembang dan menimba lebih banyak pengalaman dalam dunia IT. Klik di bawah untuk mengetahui lebih lanjut tentang seni, pengalaman dan projek saya.</p>
+                    <p class="lang-content en">A Computer Science student looking to grow and gain more experience in the IT world. Click below to learn more about my art, experience and projects.</p>
+                    <div class="button-group">
+                        <a href="#resume" class="circle-btn btn-orange">
+                            <span class="lang-content ms active">Resume</span>
+                            <span class="lang-content en">Resume</span>
+                        </a>
+                        <a href="#project" class="circle-btn btn-red">
+                            <span class="lang-content ms active">Projek</span>
+                            <span class="lang-content en">Project</span>
+                        </a>
+                        <a href="#hobby" class="circle-btn btn-cyan">
+                            <span class="lang-content ms active">Hobi</span>
+                            <span class="lang-content en">Hobby</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <div class="section-container">
+            <h2 class="lang-content ms active">Resume.</h2>
+            <h2 class="lang-content en">Resume.</h2>
+
+            <!-- Tabs -->
+            <div class="resume-tabs">
+                <button class="tab-btn active" data-tab="education">
+                    <span class="lang-content ms active">Pendidikan</span>
+                    <span class="lang-content en">Education</span>
+                </button>
+                <span class="tab-separator">|</span>
+                <button class="tab-btn" data-tab="experience">
+                    <span class="lang-content ms active">Pengalaman Kerja</span>
+                    <span class="lang-content en">Work Experience</span>
+                </button>
+                <span class="tab-separator">|</span>
+                <button class="tab-btn" data-tab="skills">
+                    <span class="lang-content ms active">Kemahiran</span>
+                    <span class="lang-content en">Skills</span>
+                </button>
+                <span class="tab-separator">|</span>
+                <button class="tab-btn" data-tab="certifications">
+                    <span class="lang-content ms active">Sijil</span>
+                    <span class="lang-content en">Certifications</span>
+                </button>
+            </div>
+
+            <!-- Education Tab -->
+            <div id="education" class="tab-content">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content left-logo">
+                            <img src="images/Universiti Tun Hussein Onn Malaysia.png" alt="UTEM Logo" class="timeline-logo">
+                            <div class="timeline-text">
+                                <h3>Universiti Tun Hussein Onn Malaysia</h3>
+                                <div class="education-degree lang-content ms active">Sarjana Muda Sains Komputer (Keselamatan Maklumat) dengan Kepujian</div>
+                                <div class="education-degree lang-content en">Bachelor of Computer Science (Information Security) with Honours</div>
+                                <div class="year">2022 - 2026</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content right-logo">
+                            <img src="images/Politeknik Mersing Johor.png" alt="Politeknik Logo" class="timeline-logo">
+                            <div class="timeline-text">
+                                <h3>Politeknik Mersing Johor</h3>
+                                <div class="education-degree lang-content ms active">Diploma Teknologi Maklumat</div>
+                                <div class="education-degree lang-content en">Diploma Digital Technology</div>
+                                <div class="year">2019 - 2022</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Work Experience Tab -->
+            <div id="experience" class="tab-content">
+                <div class="work-grid">
+                    <div class="work-card">
+                        <img src="images/company/company1.png" alt="Company 1" class="work-logo">
+                        <div class="work-text">
+                            <h3>Aidan Technologies Sdn. Bhd.</h3>
+                            <div class="position lang-content ms active">Posisi: Server intern</div>
+                            <div class="position lang-content en">Position: Server intern</div>
+                            <div class="year">2025 - Present</div>
+                        </div>
+                    </div>
+                    <div class="work-card">
+                        <img src="images/company/company2.png" alt="Company 2" class="work-logo">
+                        <div class="work-text">
+                            <h3>Sigma Rectrix Systems (M) Sdn. Bhd.</h3>
+                            <div class="position lang-content ms active">Posisi: IT Technician - Intern</div>
+                            <div class="position lang-content en">Position: IT Technician - Intern</div>
+                            <div class="year">2022</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skills Tab -->
+            <div id="skills" class="tab-content">
+                <div class="skills-list">
+                    <div class="skill-item">Linux</div>
+                    <div class="skill-item">Git</div>
+                    <div class="skill-item">Server</div>
+                    <div class="skill-item">Jenkins</div>
+                    <div class="skill-item">Python</div>
+                    <div class="skill-item">HTML</div>
+                    <div class="skill-item">MySQL</div>
+                    <div class="skill-item">CMS</div>
+                    <div class="skill-item">Docker</div>
+                    <div class="skill-item">AWS Cloud</div>
+                    <div class="skill-item">Cloudflare</div>
+                    <div class="skill-item">Infra</div>
+                </div>
+            </div>
+
+            <!-- Certifications Tab -->
+            <div id="certifications" class="tab-content">
+                <div class="certifications-list">
+                    <!-- Certification 1: CCNA -->
+                    <div class="certification-item">
+                        <img src="images/Certification/sijil1.png" alt="CCNA: Introduction to Networks" class="cert-logo">
+                        <div class="cert-content">
+                            <h3>CCNA: Introduction to Networks</h3>
+                            <div class="cert-issuer">Cisco</div>
+                            <div class="cert-date lang-content ms active">Dikeluarkan Sep 2024</div>
+                            <div class="cert-date lang-content en">Issued Sep 2024</div>
+                            <button class="cert-pdf-btn" data-pdf="sijil1.pdf">
+                                <span class="lang-content ms active">Lihat PDF</span>
+                                <span class="lang-content en">View PDF</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Certification 2: Docker -->
+                    <div class="certification-item">
+                        <img src="images/Certification/sijil2.png" alt="Docker 101" class="cert-logo">
+                        <div class="cert-content">
+                            <h3>Docker 101</h3>
+                            <div class="cert-issuer">Inframesia</div>
+                            <div class="cert-date lang-content ms active">Dikeluarkan Apr 2025</div>
+                            <div class="cert-date lang-content en">Issued Apr 2025</div>
+                            <button class="cert-pdf-btn" data-pdf="sijil2.pdf">
+                                <span class="lang-content ms active">Lihat PDF</span>
+                                <span class="lang-content en">View PDF</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Certification 3: EC-Council -->
+                    <div class="certification-item">
+                        <img src="images/Certification/sijil3.png" alt="Fundamentals of Networking Concepts, Protocols, and Security" class="cert-logo">
+                        <div class="cert-content">
+                            <h3>Fundamentals of Networking Concepts, Protocols, and Security</h3>
+                            <div class="cert-issuer">EC-Council</div>
+                            <div class="cert-date lang-content ms active">Dikeluarkan May 2024</div>
+                            <div class="cert-date lang-content en">Issued May 2024</div>
+                            <button class="cert-pdf-btn" data-pdf="sijil3.pdf">
+                                <span class="lang-content ms active">Lihat PDF</span>
+                                <span class="lang-content en">View PDF</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Certification 4: Google -->
+                    <div class="certification-item">
+                        <img src="images/Certification/sijil4.png" alt="Celcom Siswapreneur @ Google Bootcamp 2020" class="cert-logo">
+                        <div class="cert-content">
+                            <h3>Celcom Siswapreneur @ Google Bootcamp 2020</h3>
+                            <div class="cert-issuer">Google</div>
+                            <div class="cert-date lang-content ms active">Dikeluarkan Oct 2020</div>
+                            <div class="cert-date lang-content en">Issued Oct 2020</div>
+                            <button class="cert-pdf-btn" data-pdf="sijil4.pdf">
+                                <span class="lang-content ms active">Lihat PDF</span>
+                                <span class="lang-content en">View PDF</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Section -->
+    <section id="project">
+        <div class="section-container">
+            <h2 class="lang-content ms active">Projek.</h2>
+            <h2 class="lang-content en">Project.</h2>
+
+            <div class="project-grid">
+                <div class="tooltip">
+                    <a href="https://urlcheck.my" target="_blank">
+                        <img src="images/project 1.png" alt="Project 1" class="project-logo">
+                    </a>
+                    <span class="tooltiptext lang-content ms active">urlcheck.my</span>
+                    <span class="tooltiptext lang-content en">urlcheck.my</span>
+                </div>
+                <div class="tooltip">
+                    <a href="https://skyseers.syafiqnzr.com" target="_blank">
+                        <img src="images/project 2.png" alt="Project 2" class="project-logo">
+                    </a>
+                    <span class="tooltiptext lang-content ms active">skyseers.syafiqnzr.com</span>
+                    <span class="tooltiptext lang-content en">skyseers.syafiqnzr.com</span>
+                </div>
+                <div class="tooltip">
+                    <a href="https://urlcheck.my" target="_blank">
+                        <img src="images/project 3.png" alt="Project 3" class="project-logo">
+                    </a>
+                    <span class="tooltiptext lang-content ms active">syafiqnzr.com</span>
+                    <span class="tooltiptext lang-content en">syafiqnzr.com</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PDF Modal -->
+    <div id="pdfModal" class="pdf-modal">
+        <div class="pdf-modal-content">
+            <button class="pdf-modal-close">&times;</button>
+            <div class="pdf-viewer">
+                <iframe id="pdfViewer" src="" type="application/pdf"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hobby Section -->
+    <section id="hobby">
+        <div class="section-container">
+            <h2 class="lang-content ms active">Hobi.</h2>
+            <h2 class="lang-content en">Hobby.</h2>
+
+            <div class="hobby-subtitle">
+                <p class="lang-content ms active">Fotografi menarik minat saya merakam detik-detik berharga dan meluahkan kreativiti saya dengan cara yang menceritakan kisah yang bermakna.</p>
+                <p class="lang-content en">Photography attract me to capture precious moments and express my creativity in a way that tells a meaningful story.</p>
+            </div>
+
+            <div class="hobby-grid" id="hobbyGrid">
+                <img src="images/hobby-images/hobi-1.PNG" alt="Hobby 1" class="hobby-image" data-index="0">
+                <img src="images/hobby-images/hobi-2.PNG" alt="Hobby 2" class="hobby-image" data-index="1">
+                <img src="images/hobby-images/hobi-3.PNG" alt="Hobby 3" class="hobby-image" data-index="2">
+                <img src="images/hobby-images/hobi-4.PNG" alt="Hobby 4" class="hobby-image" data-index="3">
+                <img src="images/hobby-images/hobi-5.PNG" alt="Hobby 5" class="hobby-image" data-index="4">
+                <img src="images/hobby-images/hobi-6.PNG" alt="Hobby 6" class="hobby-image" data-index="5">
+                <img src="images/hobby-images/hobi-7.PNG" alt="Hobby 7" class="hobby-image" data-index="6">
+                <img src="images/hobby-images/hobi-8.PNG" alt="Hobby 8" class="hobby-image" data-index="7">
+                <img src="images/hobby-images/hobi-9.PNG" alt="Hobby 9" class="hobby-image" data-index="8">
+            </div>
+
+            <div style="text-align: center;">
+                <a href="https://drive.google.com" target="_blank" class="hobby-link">
+                    <span class="lang-content ms active">Klik di sini untuk melihat lebih banyak</span>
+                    <span class="lang-content en">Click here to view more</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3 class="lang-content ms active">Hubungi</h3>
+                <h3 class="lang-content en">Contact</h3>
+                <p>Email: syafiqnzr01@gmail.com</p>
+            </div>
+            <div class="footer-column">
+                <h3 class="lang-content ms active">Media Sosial</h3>
+                <h3 class="lang-content en">Social Media</h3>
+                <div class="social-icons">
+                    <a href="https://github.com/syafiqnzr" target="_blank" class="social-link" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/syafiqnazri/" target="_blank" class="social-link" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3 class="lang-content ms active">Lokasi</h3>
+                <h3 class="lang-content en">Location</h3>
+                <p>Kuala Lumpur, Malaysia</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 <span class="lang-content ms active">syafiqnzr. Hak Cipta Terpelihara</span><span class="lang-content en">syafiqnzr. All Rights Reserved</span></p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Language Toggle & Tab Switching -->
+    <script src="js/script.js"></script>
+</body>
+</html>
+
