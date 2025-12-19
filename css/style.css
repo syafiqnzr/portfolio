@@ -369,6 +369,30 @@ html {
     color: #555;
 }
 
+/* Tab button tooltip */
+.tab-btn::after {
+    content: attr(data-tooltip-current);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 0.5rem 0.75rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+}
+
+.tab-btn:hover::after {
+    opacity: 1;
+}
+
 .tab-separator {
     color: #ccc;
 }

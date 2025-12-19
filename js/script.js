@@ -28,6 +28,14 @@ function updateLanguage(selectedLang) {
             link.classList.add('active');
         }
     });
+
+    // Update tab button tooltips
+    const tabButtons = document.querySelectorAll('.tab-btn');
+    tabButtons.forEach(btn => {
+        const tooltipAttr = selectedLang === 'en' ? 'data-tooltip-en' : 'data-tooltip-ms';
+        const tooltipText = btn.getAttribute(tooltipAttr);
+        btn.setAttribute('data-tooltip-current', tooltipText);
+    });
 }
 
 // Initialize on page load
